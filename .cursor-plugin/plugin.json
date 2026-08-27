@@ -1,0 +1,17 @@
+{
+  "name": "imagineart",
+  "displayName": "ImagineArt",
+  "version": "0.0.1",
+  "description": "Generate images, videos, music and much more using ImagineArt plugin from Cursor.",
+  "author": {
+    "name": "ImagineArt",
+    "email": "support@imagine.art"
+  },
+  "license": "MIT",
+  "keywords": ["imagineart", "cursor", "plugin", "mcp", "image-generations", "video-generations", "music-generations"],
+  "logo": "assets/logo.svg",
+  "publisher": "imagineart",
+  "homepage": "https://www.imagine.art/",
+  "repository": "https://github.com/Vyro-ai/imagine-cursor-plugin",
+  "category": "developer-tools"
+}
