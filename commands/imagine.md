@@ -5,7 +5,7 @@ description: Generate, edit, upscale, view and manage generations via ImagineArt
 
 ## /imagine
 ```
-Entrypoint for ImagineArt MCP. Parse the request, perserve user's input and use ImagineArt MCP tools' description to map the request to a tool.
+Entrypoint for ImagineArt MCP. Parse the request, preserve user's input and use ImagineArt MCP tools' description to map the request to a tool.
 ```
 
 ## Usage
@@ -24,11 +24,11 @@ Entrypoint for ImagineArt MCP. Parse the request, perserve user's input and use 
 
 ## Examples
 ```
-/imagine Generate an image of ginger cat sitting on an orange sofa in 9:19 format
+/imagine Generate an image of ginger cat sitting on an orange sofa in 9:16 format
 /imagine Animate this image using seedance 2.5 for 5s in 1080p
 /imagine Make a UGC AD of this product <url>/<image>
 /imagine List my generations
 /imagine What is my credit balance?
 ```
 
-Use existing tools to execute user's request. Do not create names, tools or params rather follow instructions provided in the tool description. When organization is not specified use default oragnization. Always ask user in the beggining of a chat to specify the org. If there is only 1 organization use it without asking. Fetch organizations use fetch_organizations tool.
+Use existing tools to execute user's request. Do not create names, tools or params rather follow instructions provided in the tool description. When organization is not specified use default organization. Always ask user in the beginning of a chat to specify the org. If there is only 1 organization use it without asking. Fetch organizations using the select_organization tool.
